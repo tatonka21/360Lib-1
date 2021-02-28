@@ -1,0 +1,7 @@
+name: ZilleyysUtility
+version: ${project.version}
+main: com.zilleyy.utility.zilleyysutility.ZilleyysUtility
+api-version: 1.16
+authors: [ Zilleyy ]
+description: A collection of utilities for bukkit/spigot plugin developers.
+website: https://zilleyy.dev/
