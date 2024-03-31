@@ -15,7 +15,7 @@ public final class LongTag extends Tag {
   public String toString() {
     String name = getName();
     String append = "";
-    if (name != null && !name.equals(""))
+    if (name != null && !"".equals(name))
       append = "(\"" + getName() + "\")"; 
     return "TAG_Long" + append + ": " + this.value;
   }

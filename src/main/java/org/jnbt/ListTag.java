@@ -25,7 +25,7 @@ public final class ListTag extends Tag {
   public String toString() {
     String name = getName();
     String append = "";
-    if (name != null && !name.equals(""))
+    if (name != null && !"".equals(name))
       append = "(\"" + getName() + "\")"; 
     StringBuilder bldr = new StringBuilder();
     bldr.append("TAG_List" + append + ": " + this.value.size() + " entries of type " + NBTUtils.getTypeName(this.type) + "\r\n{\r\n");

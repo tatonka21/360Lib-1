@@ -18,7 +18,7 @@ public final class CompoundTag extends Tag {
   public String toString() {
     String name = getName();
     String append = "";
-    if (name != null && !name.equals(""))
+    if (name != null && !"".equals(name))
       append = "(\"" + getName() + "\")"; 
     StringBuilder bldr = new StringBuilder();
     bldr.append("TAG_Compound" + append + ": " + this.value.size() + " entries\r\n{\r\n");
